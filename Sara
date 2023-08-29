@@ -1,0 +1,67 @@
+// Sara Rodrigues
+
+//1 
+
+/* const bool1 = true
+const bool2 = false
+const bool3 = !bool2
+
+let resultado = bool1 && bool2
+console.log("a. ", false)
+
+resultado = bool1 && bool2 && bool3
+console.log("b. ", false)
+
+resultado = !resultado && (bool1 || bool2)
+console.log("c. ", true)
+
+console.log("d. ", typeof boleano) */
+
+
+//2 3
+/* 
+let primeiroNumero = Number(prompt("Digite um numero!"))
+let segundoNumero = Number(prompt("Digite outro numero!"))
+const soma = primeiroNumero + segundoNumero
+console.log(soma) */
+
+
+//1
+
+
+let idade = Number(prompt("qual sua idade?"));
+let idadaAmiga = Number(prompt("qual sua idade Valentina"));
+
+console.log("Sua idade é maior do que a do seu melhor amigo?" , (idade >= idadaAmiga));
+
+console.log("a minha idade é diferente do que a do seu melhor amigo") , (idade <= idadaAmiga);
+
+//2 
+let numero = Number(prompt("insira um número par"));
+console.log(numero % 2);
+// todo numero divisivel por 2 é igual a zero
+// o resultado será com virgula
+
+
+//3
+let Idade = Number(prompt("idade em anos"));
+let meses = idade * 12
+let dias = idade * 30
+let horas = idade * 24
+console.log (idade);
+console.log(meses)
+console.log(horas)
+
+4//
+O primeiro numero é maior que segundo? true
+
+
+console.log("primeiroNumero é maior que o segundoNumero") , (primeiroNumero >= segundoNumero);
+
+
+O primeiro numero é igual ao segundo? false
+O primeiro numero é divisível pelo segundo? true
+O segundo numero é divisível pelo primeiro? true
+obs: O true ou false vai depender dos números inseridos e do resultado da
+s operações.
+
